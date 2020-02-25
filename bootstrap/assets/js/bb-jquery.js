@@ -191,6 +191,14 @@ var bb = {
     }
 }
 
+//===== Show login modal =====//
+$(document).ready(function () {
+
+    if (window.location.href.indexOf('#login') != -1) {
+        $('#login').modal('show');
+    }
+});
+
 //===== Tabs =====//
 
 $.fn.simpleTabs = function(){
